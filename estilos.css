@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: rgb(249, 179, 1) ;
+}
+
+.contenedorPrincipal{
+    background: linear-gradient(90deg, rgb(249, 179, 1) 30.8%, rgb(255,255,255) 30.8%);
+    width: 75%;
+    height: 90%;
+    margin: 60px auto;
+    box-sizing: border-box;
+    padding: 30px 45px;
+    box-shadow: 5px 15px 10px 15px rgb(210, 150, 1);
+
+    
+}
+
+.contenedorPrincipal img{
+    width: 25px;
+    margin-right: 100px;
+    float: left;
+}
+.navegador{
+    margin-left: 532px;
+    margin-top: -20px;
+    height: 20px;
+    float: left;
+}
+
+.navegador li{
+    list-style: none;
+    float: left;
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    margin: auto 10px;
+}
+.contenedorZelda{
+    background: lightgreen;
+    margin-top: 50px;
+    width: 550px;
+    height: 300px;
+    float: left;
+}
+.contenedorZelda img{
+    width: 550px;
+    height: 300px;
+}
+
+
+.contenedorImagenZelda{
+    margin-top: 30px;
+    background: chocolate;
+    height: 50px;
+    clear: left;
+    width: 550px;
+    
+}
+
+.contenedorImagenZelda #contenedor1{
+    background: black;
+    height: 50px;
+    width: 400px;
+    float: left;
+}
+
+#contenedor1 h3{
+    float: left;
+    font-weight: bold;
+    color: rgb(249, 179, 1);
+    margin: 15px 20px;
+}
+
+.contenedorImagenZelda #h02{
+    margin-left: 130px;
+}
+.contenedorImagenZelda #recuadro{
+    background-color: rgb(249, 179, 1);
+    margin-top: 23px;
+    width: 170px;
+    height: 5px;
+}
+
+
+#contenedor1 div{
+    float: left;
+}
+.contenedorImagenZelda #contenedor2{
+    background: rgb(249, 179, 1);
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+#contenedor2{
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+#contenedor2 h3{
+    float: left;
+    font-size: 15px;
+    
+}
+
+.contenedorImagenZelda #hDerecha{
+    margin-left: 70px;
+}
+
+.seccion{
+    background: coral;
+    width: 40%;
+    float: right;
+    margin-top: -350px;
+}
